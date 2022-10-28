@@ -1,0 +1,25 @@
+/*   
+tag[attribute name]
+{
+    ..........
+}
+*/
+input[type]
+{
+    border: 2px solid salmon;
+}
+
+img[alt ='tiger']
+{
+    border-radius: 5px solid green;
+    height: 400px;
+    width: 400px;
+
+}
+
+div[class~='hello']
+{
+    border-radius: 20px solid red;
+    height: 100px;
+    width: 100px;
+}

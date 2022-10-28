@@ -1,0 +1,12 @@
+.box1{
+    background-color: blueviolet;
+    height: 40vh;
+    width: 40vw;
+    margin-top: 100px;
+    margin-left: 150px;
+    padding-left: 100px;
+    padding-top: 100px;
+    border: 10px ridge yellow;
+
+    border-radius: 100px 0px 10px 50px;
+}

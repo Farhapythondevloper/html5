@@ -1,0 +1,64 @@
+/* CSS -
+ FUNDAMANTALS
+ TYPES OF CSS - 
+ Inline - we use rules inside html tag using style attribute
+ style="color:red"
+
+ internal
+ external- recommended
+
+ CSS RULES -- which property apply on which element it tells about the property and element selection
+    selector { property:value; property:value }
+    html element select krna h or uspe css ki konsi property apply krna hai..
+
+    PROPERTICES
+      BOX MODEL - 
+                 border
+                 margin
+                 pading 
+
+      POSSITION --  jo area occupied hota h position property se wo area occupied nhi hota h 
+         relative
+         absolute
+
+      FLOAT
+      BACKGROUND
+      FONT AND TEXT */
+
+    /* SELECTORS
+         SIMPLE SELECTOR
+         COMBINATOR SELECTOR
+         PSUDO SELECTORS
+
+         ATTERIBUTE SELECTOR 
+              <img alt="computer image" src="">
+              ~ tielde - if contains attribute value then it will be selected
+              | pipe - if attribute starts with co some word
+              div[class|='nav']
+              {
+                border 2px solid grey;
+              }
+            ^ carret - it matches begining word,
+         */
+
+
+/* ADDVANCE CSS
+        LAYOUT 
+        FLEX BOX
+        CSS GRID - BASIC */
+
+
+/* 
+CSS PRE PROCESSOR - 
+ SAAS
+ LESS
+
+ LIBRARY
+ boostrap
+ tailwind
+   */
+ 
+.color{
+    background-color: blueviolet;
+    font-size: 30px;
+}

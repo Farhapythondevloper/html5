@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: brown;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: beige;
+    flex-basis: 20%;
+    
+
+    
+}
+main{
+    background-color: blueviolet;
+    flex-basis: 80%;
+    display: flex;
+    /* height: 80vh; */
+}
+nav{
+    background-color: brown;
+    flex-grow: 2;
+    /* flex-basis: 25%; */
+}
+article{
+    background-color: aquamarine;
+    flex-grow: 4;
+    /* flex-basis: 50%; */
+}
+aside{
+    background-color: yellowgreen;
+    flex-grow: 2;
+    /* flex-basis: 25%; */
+}
+footer{
+    background-color: yellow;
+    flex-basis: 10%;
+    /* height: 10vh; */
+}
