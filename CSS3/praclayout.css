@@ -1,0 +1,60 @@
+.container{
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: brown;
+    flex-grow: 1;
+}
+main{
+    background-color: aquamarine;
+    flex-grow: 4;
+    display: flex;
+
+}
+nav{
+    background-color: gold;
+    flex-grow: 1;
+}
+article{
+    background-color: violet;
+    flex-grow: 4;
+    display: flex;
+    flex-direction: column;
+}
+.upper{
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+.upper-right{
+    background-color: teal;
+    flex-grow: 1;
+}
+.upper-left{
+    background-color: springgreen;
+    flex-grow: 1;
+}
+.lower{
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+}
+.lower-right{
+    background-color: yellow;
+    flex-grow: 1;
+}
+.lower-left{
+    background-color: yellow;
+    flex-grow: 1;
+}
+aside{
+    background-color: chocolate;
+    flex-grow: 2;
+}
+footer{
+    background-color: yellowgreen;
+    flex-grow: 1;
+}

@@ -1,0 +1,36 @@
+main{
+    width: 750px;
+    height: 800px;
+    background-color: blueviolet;
+    margin: auto;
+}
+header{
+    width: 750px;
+    height: 100px;
+    background-color: green;
+}
+section{
+    width: 375px;
+    height: 325px;
+    background-color: orange;
+    float: left;
+}
+
+aside{
+    width: 375px;
+    height: 650px;
+    background-color: brown;
+    float: right;
+}
+article{
+    width: 375px;
+    height: 325px;
+    background-color: rgb(206, 32, 128);
+    float: left;
+}
+footer{
+    width: 750px;
+    height: 50px;
+    background-color: aqua;
+    float: left;
+}
