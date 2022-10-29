@@ -22,32 +22,34 @@ article{
     background-color: violet;
     flex-grow: 4;
     display: flex;
-    flex-direction: column;
+    
 }
 .upper{
-    background-color: yellow;
+    background-color: tomato;
+    flex-grow: 2;
     display: flex;
     flex-direction: column;
 }
 .upper-right{
-    background-color: teal;
+    background-color: blueviolet;
     flex-grow: 1;
 }
 .upper-left{
-    background-color: springgreen;
+    background-color: blue;
     flex-grow: 1;
 }
 .lower{
-    background-color: tomato;
+    background-color: teal;
+    flex-grow: 2;
     display: flex;
     flex-direction: column;
 }
 .lower-right{
-    background-color: yellow;
+    background-color: aqua;
     flex-grow: 1;
 }
 .lower-left{
-    background-color: yellow;
+    background-color: cadetblue;
     flex-grow: 1;
 }
 aside{
