@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: red;
+    width: 1400px;
+    height: 100vh;
+}
+
+@media all and (max-width:1200px){
+    main{
+        background-color:purple;
+    }
+}
+
+@media all and (max-width:1000px){
+    main{
+        background-color: aqua;
+    }
+}
+
+@media all and (max-width:800px){
+    main{
+        background-color: orange;
+    }
+}
+
+@media all and (max-width:600px){
+    main{
+        background-color: blue;
+    }
+}
+
+.card{
+    background-color: red;
+    width: 400px;
+    height: 400px;
+}
+.card img{
+    width: 300px;
+    height: 300px;
+}
