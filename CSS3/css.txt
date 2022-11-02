@@ -1,0 +1,25 @@
+casecading style sheet
+
+it is used to style or buityfy the element
+<p> hi</p> element ko sajane ke liy css ka use krte hi
+
+we need to learn only two things
+1.  css types
+2. css rules
+
+1 css types - 
+   i .inline css - when we write code css code inside html tag using style attribute
+      then it is called inline css
+      exampple -
+      <h1 style="color: red; background-color: yellow;">hi all</h1>
+    disadvantage 
+      1.scope within element only
+      2. maintanbility is very less and complex with html
+    advantage 
+       if all types od css implement so it will take implementation on priority
+   
+   ii. internal css /embed css - when we write css code inside head using style element
+   iii. external - when we use css code in seprate file than it is called external css.
+   1 .this file must be save with .css extension
+   2. need to link css with html file
+

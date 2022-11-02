@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+:root{
+    --text-color:green;
+    --text-font: 'Courier New', Courier, monospace;
+}
+
+.lorem{
+    font-family: var(--text-font);
+    color: var(--text-color);
+}
+.hello{
+    color: var(--text-color);
+    font-family: var(--text-font);
+}
+.one{
+    color: var(--text-color);
+}
+.two{
+    color: var(--text-color);
+}
+
+/* @import url(); css me use hota h */
